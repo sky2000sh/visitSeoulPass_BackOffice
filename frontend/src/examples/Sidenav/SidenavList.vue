@@ -43,7 +43,8 @@ const getRoute = () => {
                 mini-icon="D"
                 text="Default"
               />
-              <sidenav-item
+
+              <!-- <sidenav-item
                 :to="{ name: 'Automotive' }"
                 mini-icon="A"
                 text="Automotive"
@@ -52,8 +53,9 @@ const getRoute = () => {
                 :to="{ name: 'Smart Home' }"
                 mini-icon="S"
                 text="Smart Home"
-              />
-              <sidenav-collapse-item
+              /> -->
+
+              <!-- <sidenav-collapse-item
                 refer="vrExamples"
                 mini-icon="V"
                 text="Virtual Reality"
@@ -70,8 +72,9 @@ const getRoute = () => {
                     text="VR Info"
                   />
                 </template>
-              </sidenav-collapse-item>
-              <sidenav-item :to="{ name: 'CRM' }" mini-icon="C" text="CRM" />
+              </sidenav-collapse-item> -->
+
+              <!-- <sidenav-item :to="{ name: 'CRM' }" mini-icon="C" text="CRM" /> -->
             </ul>
           </template>
         </sidenav-collapse>
@@ -115,42 +118,42 @@ const getRoute = () => {
                   <sidenav-item
                     :to="{ name: 'All Projects' }"
                     mini-icon="A"
-                    text="All Projects"
+                    text="모든 프로젝트"
                   />
                 </template>
               </sidenav-collapse-item>
 
-              <sidenav-collapse-item
+              <!-- <sidenav-collapse-item
                 refer="usersExample"
                 mini-icon="U"
-                text="Users"
+                text="사용자"
               >
                 <template #nav-child-item>
                   <sidenav-item
                     :to="{ name: 'Reports' }"
                     mini-icon="R"
-                    text="Reports"
+                    text="리포트"
                   />
                   <sidenav-item
                     :to="{ name: 'New User' }"
                     mini-icon="N"
-                    text="New User"
+                    text="신규 사용자"
                   />
                 </template>
-              </sidenav-collapse-item>
+              </sidenav-collapse-item> -->
 
               <sidenav-collapse-item
                 refer="accountExample"
                 mini-icon="A"
-                text="Account"
+                text="계정"
               >
                 <template #nav-child-item>
                   <sidenav-item
                     :to="{ name: 'Settings' }"
                     mini-icon="S"
-                    text="Settings"
+                    text="설정"
                   />
-                  <sidenav-item
+                  <!-- <sidenav-item
                     :to="{ name: 'Billing' }"
                     mini-icon="B"
                     text="Billing"
@@ -164,14 +167,14 @@ const getRoute = () => {
                     :to="{ name: 'Security' }"
                     mini-icon="S"
                     text="Security"
-                  />
+                  /> -->
                 </template>
               </sidenav-collapse-item>
 
-              <sidenav-collapse-item
+              <!-- <sidenav-collapse-item
                 refer="projectsExample"
                 mini-icon="P"
-                text="Projects"
+                text="프로젝트"
               >
                 <template #nav-child-item>
                   <sidenav-item
@@ -190,12 +193,12 @@ const getRoute = () => {
                     text="New Project"
                   />
                 </template>
-              </sidenav-collapse-item>
+              </sidenav-collapse-item> -->
 
-              <sidenav-item
+              <!-- <sidenav-item
                 :to="{ name: 'Pricing Page' }"
                 mini-icon="P"
-                text="Pricing Page"
+                text="결제 페이지"
               />
               <sidenav-item :to="{ name: 'RTL' }" mini-icon="R" text="RTL" />
               <sidenav-item
@@ -217,7 +220,7 @@ const getRoute = () => {
                 :to="{ name: 'Notifications' }"
                 mini-icon="N"
                 text="Notifications"
-              />
+              /> -->
             </ul>
           </template>
         </sidenav-collapse>
@@ -226,9 +229,10 @@ const getRoute = () => {
       <li class="nav-item">
         <sidenav-collapse
           collapse-ref="applicationsExamples"
-          nav-text="Applications"
+          nav-text="기능 메뉴"
           :class="getRoute() === 'applications' ? 'active' : ''"
         >
+        <!-- nav-text="Applications" -->
           <template #icon>
             <i class="ni ni-ui-04 text-info text-sm opacity-10"></i>
           </template>
@@ -236,7 +240,7 @@ const getRoute = () => {
             <ul class="nav ms-4">
               <!-- nav links -->
 
-              <sidenav-item
+              <!-- <sidenav-item
                 :to="{ name: 'Kanban' }"
                 mini-icon="K"
                 text="Kanban"
@@ -245,22 +249,22 @@ const getRoute = () => {
                 :to="{ name: 'Wizard' }"
                 mini-icon="W"
                 text="Wizard"
-              />
+              /> -->
               <sidenav-item
                 :to="{ name: 'Data Tables' }"
                 mini-icon="D"
-                text="Data Tables"
+                text="상품"
               />
               <sidenav-item
                 :to="{ name: 'Calendar' }"
                 mini-icon="C"
-                text="Calendar"
+                text="캘린더"
               />
-              <sidenav-item
+              <!-- <sidenav-item
                 :to="{ name: 'Analytics' }"
                 mini-icon="A"
                 text="Analytics"
-              />
+              /> -->
             </ul>
           </template>
         </sidenav-collapse>
@@ -269,46 +273,48 @@ const getRoute = () => {
       <li class="nav-item">
         <sidenav-collapse
           collapse-ref="ecommerceExamples"
-          nav-text="Ecommerce"
+          nav-text="이커머스"
           :class="getRoute() === 'ecommerce' ? 'active' : ''"
         >
+        <!-- nav-text="Ecommerce" -->
           <template #icon>
             <i class="ni ni-archive-2 text-success text-sm opacity-10"></i>
           </template>
           <template #list>
             <ul class="nav ms-4">
               <!-- nav links -->
-              <sidenav-item
+
+              <!-- <sidenav-item
                 :to="{ name: 'Overview' }"
                 mini-icon="O"
                 text="Overview"
-              />
+              /> -->
 
               <sidenav-collapse-item
                 refer="productsExample"
                 mini-icon="P"
-                text="Products"
+                text="상품"
               >
                 <template #nav-child-item>
                   <sidenav-item
                     :to="{ name: 'New Product' }"
                     mini-icon="N"
-                    text="New Product"
+                    text="신규 상품"
                   />
                   <sidenav-item
                     :to="{ name: 'Edit Product' }"
                     mini-icon="E"
-                    text="Edit Product"
+                    text="상품 조정"
                   />
                   <sidenav-item
                     :to="{ name: 'Product Page' }"
                     mini-icon="P"
-                    text="Product page"
+                    text="상품 페이지"
                   />
                   <sidenav-item
                     :to="{ name: 'Products List' }"
                     mini-icon="P"
-                    text="Products List"
+                    text="상품 목록"
                   />
                 </template>
               </sidenav-collapse-item>
@@ -316,26 +322,27 @@ const getRoute = () => {
               <sidenav-collapse-item
                 refer="ordersExample"
                 mini-icon="O"
-                text="Orders"
+                text="주문"
               >
                 <template #nav-child-item>
                   <sidenav-item
                     :to="{ name: 'Order List' }"
                     mini-icon="O"
-                    text="Order List"
+                    text="주문 목록"
                   />
                   <sidenav-item
                     :to="{ name: 'Order Details' }"
                     mini-icon="O"
-                    text="Order Details"
+                    text="주문 상세"
                   />
                 </template>
               </sidenav-collapse-item>
-              <sidenav-item
+
+              <!-- <sidenav-item
                 :to="{ name: 'Referral' }"
                 mini-icon="R"
                 text="Referral"
-              />
+              /> -->
             </ul>
           </template>
         </sidenav-collapse>
@@ -344,16 +351,18 @@ const getRoute = () => {
       <li class="nav-item">
         <sidenav-collapse
           collapse-ref="authExamples"
-          nav-text="Authentication"
+          nav-text="권한/인증"
           :class="getRoute() === 'authentication' ? 'active' : ''"
         >
+        <!-- nav-text="Authentication" -->
           <template #icon>
             <i class="ni ni-single-copy-04 text-danger text-sm opacity-10"></i>
           </template>
           <template #list>
             <ul class="nav ms-4">
               <!-- nav links -->
-              <sidenav-collapse-item
+
+              <!-- <sidenav-collapse-item
                 refer="signinExample"
                 mini-icon="S"
                 text="Sign In"
@@ -375,9 +384,9 @@ const getRoute = () => {
                     text="Illustration"
                   />
                 </template>
-              </sidenav-collapse-item>
+              </sidenav-collapse-item> -->
 
-              <sidenav-collapse-item
+              <!-- <sidenav-collapse-item
                 refer="signupExample"
                 mini-icon="S"
                 text="Sign Up"
@@ -399,9 +408,9 @@ const getRoute = () => {
                     text="Illustration"
                   />
                 </template>
-              </sidenav-collapse-item>
+              </sidenav-collapse-item> -->
 
-              <sidenav-collapse-item
+              <!-- <sidenav-collapse-item
                 refer="resetExample"
                 mini-icon="R"
                 text="Reset Password"
@@ -423,9 +432,9 @@ const getRoute = () => {
                     text="Illustration"
                   />
                 </template>
-              </sidenav-collapse-item>
+              </sidenav-collapse-item> -->
 
-              <sidenav-collapse-item
+              <!-- <sidenav-collapse-item
                 refer="lockExample"
                 mini-icon="L"
                 text="Lock"
@@ -447,9 +456,9 @@ const getRoute = () => {
                     text="Illustration"
                   />
                 </template>
-              </sidenav-collapse-item>
+              </sidenav-collapse-item> -->
 
-              <sidenav-collapse-item
+              <!-- <sidenav-collapse-item
                 refer="StepExample"
                 mini-icon="2"
                 text="2-Step Verification"
@@ -471,7 +480,7 @@ const getRoute = () => {
                     text="Illustration"
                   />
                 </template>
-              </sidenav-collapse-item>
+              </sidenav-collapse-item> -->
 
               <sidenav-collapse-item
                 refer="errorExample"
