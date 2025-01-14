@@ -2,8 +2,10 @@
 import { computed } from "vue";
 import { useStore } from "vuex";
 import SidenavList from "./SidenavList.vue";
-import logo from "@/assets/img/logo-ct-dark.png";
-import logoWhite from "@/assets/img/logo-ct.png";
+// import logo from "@/assets/img/logo-ct-dark.png";
+import logo from "@/assets/img/logo_dark_300.png";
+// import logoWhite from "@/assets/img/logo-ct.png";
+import logoWhite from "@/assets/img/logo.png";
 import image from "@/assets/img/profile-layout-header.jpg";
 
 const store = useStore();
@@ -51,7 +53,8 @@ const darkMode = computed(() => store.state.darkMode);
           class="navbar-brand-img h-100"
           alt="main_logo"
         />
-        <span class="ms-2 font-weight-bold">visitSeoulPass Back-Office</span>
+        <!-- <span class="ms-2 font-weight-bold">visitSeoulPass Back-Office</span> -->
+        <span class="ms-2 font-weight-bold">visitSeoulPass</span>
       </router-link>
     </div>
     <hr class="mt-0 horizontal dark" />

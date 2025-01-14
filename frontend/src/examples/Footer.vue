@@ -18,12 +18,12 @@ const isRTL = computed(() => store.state.isRTL);
             {{ new Date().getFullYear() }}, made with
             <i class="fa fa-heart"></i> by
             <a
-              href="https://www.creative-tim.com"
+              href="https://www.github.com/sky2000sh"
               class="font-weight-bold"
               target="_blank"
-              >Creative Tim</a
+              >SI-HYEON LEE</a
             >
-            for a better web.
+            for a better tourpass system.
           </div>
         </div>
         <div class="col-lg-6">
@@ -31,36 +31,18 @@ const isRTL = computed(() => store.state.isRTL);
             class="nav nav-footer justify-content-center justify-content-lg-end"
           >
             <li class="nav-item">
-              <a
-                href="https://www.creative-tim.com"
-                class="nav-link text-muted"
-                target="_blank"
-                >Creative Tim</a
-              >
+              <a href="https://www.koreatourpass.co.kr/" class="nav-link text-muted" target="_blank">VisitSeoulPass</a>
             </li>
             <li class="nav-item">
-              <a
-                href="https://www.creative-tim.com/presentation"
-                class="nav-link text-muted"
-                target="_blank"
-                >About Us</a
-              >
+              <a href="https://www.koreatourpass.co.kr/about" class="nav-link text-muted" target="_blank">About Us</a>
             </li>
             <li class="nav-item">
-              <a
-                href="https://www.creative-tim.com/blog"
-                class="nav-link text-muted"
-                target="_blank"
-                >Blog</a
-              >
+              <!-- <a ref="https://www.creative-tim.com/blog" class="nav-link text-muted" target="_blank">Blog</a> -->
+              <a href="https://www.koreatourpass.co.kr/SERVICE" class="nav-link text-muted" target="_blank">Business</a>
             </li>
             <li class="nav-item">
-              <a
-                href="https://www.creative-tim.com/license"
-                class="nav-link pe-0 text-muted"
-                target="_blank"
-                >License</a
-              >
+              <!-- <a href="https://www.creative-tim.com/license" class="nav-link pe-0 text-muted" target="_blank">License</a> -->
+              <a href="https://www.koreatourpass.co.kr/lookbook" class="nav-link pe-0 text-muted" target="_blank">Contact</a>
             </li>
           </ul>
         </div>

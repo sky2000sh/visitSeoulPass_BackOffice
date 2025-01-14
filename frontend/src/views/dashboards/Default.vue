@@ -5,12 +5,12 @@ import Carousel from "././components/Carousel.vue";
 import MemberCard from "./components/MemberCard.vue";
 import TodoListCard from "./components/TodoListCard.vue";
 import ProgressTrackCard from "./components/ProgressTrackCard.vue";
-import PostCard from "@/examples/Cards/PostCard.vue";
-import AuthorsTable from "./components/AuthorsTable.vue";
-import CategoriesList from "@/examples/Cards/CategoriesList.vue";
-import ProjectCard from "./components/ProjectCard.vue";
-import CreditCard from "./components/CreditCard.vue";
-import InfoCard from "./components/InfoCard.vue";
+// import PostCard from "@/examples/Cards/PostCard.vue";
+// import AuthorsTable from "./components/AuthorsTable.vue";
+// import CategoriesList from "@/examples/Cards/CategoriesList.vue";
+// import ProjectCard from "./components/ProjectCard.vue";
+// import CreditCard from "./components/CreditCard.vue";
+// import InfoCard from "./components/InfoCard.vue";
 
 import image2 from "../../assets/img/img-2.jpg";
 import image1 from "../../assets/img/img-1.jpg";
@@ -25,45 +25,45 @@ import jira from "../../assets/img/small-logos/logo-jira.svg";
 import asana from "../../assets/img/small-logos/logo-asana.svg";
 import spotify from "../../assets/img/small-logos/logo-spotify.svg";
 import bootstrap from "../../assets/img/small-logos/bootstrap.svg";
-import invision from "../../assets/img/small-logos/logo-invision.svg";
-import slack from "../../assets/img/small-logos/logo-slack.svg";
-import adobe from "../../assets/img/small-logos/logo-xd.svg";
+// import invision from "../../assets/img/small-logos/logo-invision.svg";
+// import slack from "../../assets/img/small-logos/logo-slack.svg";
+// import adobe from "../../assets/img/small-logos/logo-xd.svg";
 
-import US from "../../assets/img/icons/flags/US.png";
-import DE from "../../assets/img/icons/flags/DE.png";
-import GB from "../../assets/img/icons/flags/GB.png";
-import BR from "../../assets/img/icons/flags/BR.png";
+// import US from "../../assets/img/icons/flags/US.png";
+// import DE from "../../assets/img/icons/flags/DE.png";
+// import GB from "../../assets/img/icons/flags/GB.png";
+// import BR from "../../assets/img/icons/flags/BR.png";
 
-const sales = {
-  us: {
-    country: "United States",
-    sale: 2500,
-    value: "$230,900",
-    bounce: "29.9%",
-    flag: US,
-  },
-  germany: {
-    country: "Germany",
-    sale: "3.900",
-    value: "$440,000",
-    bounce: "40.22%",
-    flag: DE,
-  },
-  britain: {
-    country: "Great Britain",
-    sale: "1.400",
-    value: "$190,700",
-    bounce: "23.44%",
-    flag: GB,
-  },
-  brasil: {
-    country: "Brasil",
-    sale: "562",
-    value: "$143,960",
-    bounce: "32.14%",
-    flag: BR,
-  },
-};
+// const sales = {
+//   us: {
+//     country: "United States",
+//     sale: 2500,
+//     value: "$230,900",
+//     bounce: "29.9%",
+//     flag: US,
+//   },
+//   germany: {
+//     country: "Germany",
+//     sale: "3.900",
+//     value: "$440,000",
+//     bounce: "40.22%",
+//     flag: DE,
+//   },
+//   britain: {
+//     country: "Great Britain",
+//     sale: "1.400",
+//     value: "$190,700",
+//     bounce: "23.44%",
+//     flag: GB,
+//   },
+//   brasil: {
+//     country: "Brasil",
+//     sale: "562",
+//     value: "$143,960",
+//     bounce: "32.14%",
+//     flag: BR,
+//   },
+// };
 </script>
 <template>
   <div class="py-4 container-fluid">
@@ -271,7 +271,9 @@ const sales = {
             />
           </div>
         </div>
-        <div class="row mt-4">
+
+        <!-- 네 번째 행 -->
+        <!-- <div class="row mt-4">
           <div class="col-12 col-lg-5">
             <post-card />
           </div>
@@ -382,8 +384,10 @@ const sales = {
               </div>
             </div>
           </div>
-        </div>
-        <div class="row mt-4">
+        </div> -->
+
+        <!-- 다섯 번째 행 -->
+        <!-- <div class="row mt-4">
           <div class="col-12 col-md-8 mb-4 mb-md-0">
             <authors-table />
           </div>
@@ -419,7 +423,8 @@ const sales = {
               ]"
             />
           </div>
-        </div>
+        </div> -->
+
       </div>
     </div>
   </div>

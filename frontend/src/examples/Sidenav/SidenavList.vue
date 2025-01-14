@@ -516,7 +516,7 @@ const getRoute = () => {
       <li class="nav-item">
         <sidenav-collapse
           collapse-ref="basicExamples"
-          nav-text="Basic"
+          nav-text="기본"
           :class="getRoute() === 'basic' ? 'active' : ''"
         >
           <template #icon>
@@ -636,7 +636,7 @@ const getRoute = () => {
       <li class="nav-item">
         <sidenav-collapse
           collapse-ref="componentsExamples"
-          nav-text="Components"
+          nav-text="컴포넌트"
           :class="getRoute() === 'components' ? 'active' : ''"
         >
           <template #icon>
@@ -778,9 +778,11 @@ const getRoute = () => {
           </template>
         </sidenav-collapse>
       </li>
-      <li class="nav-item">
+
+      <!-- Changelog    nav-text="Changelog"  -->
+      <!-- <li class="nav-item">
         <sidenav-collapse
-          nav-text="Changelog"
+          nav-text="로그"
           :collapse="false"
           url="#"
           :aria-controls="''"
@@ -797,7 +799,8 @@ const getRoute = () => {
             ></i>
           </template>
         </sidenav-collapse>
-      </li>
+      </li> -->
+
     </ul>
   </div>
   <div class="mt-3 sidenav-footer">
