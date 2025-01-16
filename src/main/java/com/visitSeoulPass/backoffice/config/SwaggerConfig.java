@@ -24,20 +24,20 @@ public class SwaggerConfig {
     @Bean
     public Docket api() {
         return new Docket(DocumentationType.SWAGGER_2)
+                .select()
+                .apis(RequestHandlerSelectors.basePackage("com.visitSeoulPass.backoffice.web"))
+                .paths(PathSelectors.any())
+                .build()
                 .apiInfo(apiInfo())
                 .securityContexts(Arrays.asList(securityContext()))
-                .securitySchemes(Arrays.asList(apiKey()))
-                .select()
-                .apis(RequestHandlerSelectors.basePackage("com.visitSeoulPass.backoffice.web.controller"))
-                .paths(PathSelectors.any())
-                .build();
+                .securitySchemes(Arrays.asList(apiKey()));
     }
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
                 .title("Visit Seoul Pass BackOffice API")
                 .description("Visit Seoul Pass BackOffice REST API Documentation")
-                .version("1.0.0")
+                .version("1.0")
                 .build();
     }
 
